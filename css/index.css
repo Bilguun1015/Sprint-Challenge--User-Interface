@@ -67,8 +67,10 @@ p {
 }
 
 .container {
+    
     width: 800px;
     margin: 0 auto;
+    
 }
 
 .top-content {
@@ -168,6 +170,9 @@ header nav a{
     text-decoration: none;
     color: black;
 }
+header nav a:hover{
+    color: grey;
+}
 .Pic{
     display: flex;
     width: 800px;
@@ -206,4 +211,50 @@ header nav a{
     background-color: dodgerblue;
 }
 
-/* My code starts here for */
+/* My code starts here for about.html page */
+
+.container .aboutpage-content{
+    display: flex;
+    width: 800px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed black;
+}
+.about-page{
+    display: flex;
+    width: 800px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.information{
+    display: flex;
+    width: 370px;
+    flex-wrap: wrap;
+    border-bottom: 1px dashed black; 
+    margin-top: 25px ;
+    
+}
+.about-page .information h3{
+    margin-top: 10px;
+}
+.about-page .information button{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background: white;
+    border: 2px solid black;
+}
+.about-page .information button:hover{
+    background: black;
+    color:white;
+}
+.last-paragraph{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
