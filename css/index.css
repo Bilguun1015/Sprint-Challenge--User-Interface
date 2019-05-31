@@ -144,3 +144,66 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* My code starts here for index.html page*/
+
+header{
+    width: 800px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+header nav{
+    width: 800px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+header nav .lambda{
+    display: flex;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+.Pic{
+    display: flex;
+    width: 800px;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.middle-content .boxes .one{
+    background-color: teal;
+}
+.middle-content .boxes .two{
+    background-color: gold;
+}
+.middle-content .boxes .three{
+    background-color: cadetblue;
+}
+.middle-content .boxes .four{
+    background-color: coral;
+}
+.middle-content .boxes .five{
+    background-color: crimson;
+}
+.middle-content .boxes .six{
+    background-color: forestgreen;
+}
+.middle-content .boxes .seven{
+    background-color: darkorchid;
+}
+.middle-content .boxes .eight{
+    background-color: hotpink;
+}
+.middle-content .boxes .nine{
+    background-color: indigo;
+}
+.middle-content .boxes .ten{
+    background-color: dodgerblue;
+}
+
+/* My code starts here for */
