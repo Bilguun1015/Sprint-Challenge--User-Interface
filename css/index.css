@@ -67,8 +67,10 @@ p {
 }
 
 .container {
+    
     width: 800px;
     margin: 0 auto;
+    
 }
 
 .top-content {
@@ -143,4 +145,116 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* My code starts here for index.html page*/
+
+header{
+    width: 800px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+header nav{
+    width: 800px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+header nav .lambda{
+    display: flex;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+header nav a:hover{
+    color: grey;
+}
+.Pic{
+    display: flex;
+    width: 800px;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.middle-content .boxes .one{
+    background-color: teal;
+}
+.middle-content .boxes .two{
+    background-color: gold;
+}
+.middle-content .boxes .three{
+    background-color: cadetblue;
+}
+.middle-content .boxes .four{
+    background-color: coral;
+}
+.middle-content .boxes .five{
+    background-color: crimson;
+}
+.middle-content .boxes .six{
+    background-color: forestgreen;
+}
+.middle-content .boxes .seven{
+    background-color: darkorchid;
+}
+.middle-content .boxes .eight{
+    background-color: hotpink;
+}
+.middle-content .boxes .nine{
+    background-color: indigo;
+}
+.middle-content .boxes .ten{
+    background-color: dodgerblue;
+}
+
+/* My code starts here for about.html page */
+
+.container .aboutpage-content{
+    display: flex;
+    width: 800px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed black;
+}
+.about-page{
+    display: flex;
+    width: 800px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.information{
+    display: flex;
+    width: 370px;
+    flex-wrap: wrap;
+    border-bottom: 1px dashed black; 
+    margin-top: 25px ;
+    
+}
+.about-page .information h3{
+    margin-top: 10px;
+}
+.about-page .information button{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background: white;
+    border: 2px solid black;
+}
+.about-page .information button:hover{
+    background: black;
+    color:white;
+}
+.last-paragraph{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
